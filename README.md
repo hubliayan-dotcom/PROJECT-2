@@ -1,10 +1,23 @@
-# MediScan AI: AI-Powered Medical Image Analysis System
+# 🏥 MediScan AI — AI-Powered Medical Image Analysis System
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.13-orange)
-![React](https://img.shields.io/badge/React-19.0-61DAFB)
-![Gemini](https://img.shields.io/badge/Gemini_AI-3_Flash-vibrant)
-![Accuracy](https://img.shields.io/badge/Accuracy-91%25-green)
+> 🚀 A full-stack AI system that simulates a real-world radiology workflow using deep learning and computer vision.
+
+🔍 Detects pneumonia from chest X-rays  
+⚡ Real-time inference with AI-assisted diagnosis  
+🧠 Explainable AI using Grad-CAM  
+🌐 Deployed web application with modern UI  
+
+---
+
+## 🎯 Why This Project Matters
+
+Medical diagnosis can take hours — this system reduces it to seconds.
+
+This project simulates how AI is used in:
+- 🏥 Hospitals (triage support)
+- 🧪 Diagnostic labs (automated screening)
+- 🩻 Radiology centers (decision assistance)
+- 💡 HealthTech startups (AI-powered diagnostics)
 
 ## 🏥 1. Virtual Simulation Explanation
 This project is a **Virtual Simulation** of a real-world hospital diagnostic workflow.
@@ -31,6 +44,40 @@ This project is a **Virtual Simulation** of a real-world hospital diagnostic wor
 
 ---
 
+## 🏗️ System Architecture
+Medical Image → Preprocessing → MobileNetV2 → Classification Head → Prediction → Visualization
+
+### 🔄 Data Flow
+
+1. Image is uploaded by user
+2. Preprocessed (resize + normalize)
+3. Passed through MobileNetV2
+4. Output probability generated
+5. Grad-CAM highlights important regions
+6. Result displayed with confidence score
+
+## 🤖 Gemini AI Integration
+
+Google Gemini is used to:
+
+- 📝 Generate AI-assisted diagnostic reports
+- 💬 Provide explanations for predictions
+- 📊 Convert model outputs into human-readable insights
+
+This simulates how AI copilots assist doctors in real hospitals.
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology |
+|-------------|-----------|
+| Frontend     | React + Vite |
+| Backend      | Node.js / TypeScript |
+| AI Model     | TensorFlow / Keras |
+| Architecture | MobileNetV2 |
+| Image Ops    | OpenCV |
+| AI Assistant | Gemini API |
+| Deployment   | Vercel |
+
 ## 📂 3. Modular Code Structure (Industry Style)
 The core ML logic is split into modular components for maintainability:
 ```
@@ -43,7 +90,6 @@ src/
 └── predict.py      # Single image inference
 ```
 
----
 
 ## 🛠️ 4. How to Run
 
@@ -61,19 +107,32 @@ python src/evaluate.py
 python src/predict.py --image sample.jpg
 ```
 
----
+## ⚠️ Limitations
 
-## 📊 5. Proof Artifacts
-The following artifacts are generated during Phase 6 & 8:
-- **Training Curves**: Accuracy and Loss plots.
-- **Confusion Matrix**: Visualizing True Positives vs False Positives.
-- **Grad-CAM Heatmaps**: Visual proof of where the AI is "looking" in the X-ray.
+- Not a clinically approved system
+- Trained on limited public datasets
+- Requires real-world validation
+- Should be used only for educational purposes
 
----
+  ## 🚀 Future Improvements
 
-## 🔗 6. Deployment & Demo
-- **Live Demo**: [https://mediscan-ai.vercel.app](https://example.com)
-- **Video Walkthrough**: [Watch on YouTube](https://example.com)
+- Multi-disease classification (COVID, TB, Cancer)
+- Integration with DICOM medical imaging format
+- Deployment with FastAPI + Docker
+- Real-time hospital dashboard
+- Integration with electronic health records (EHR)
+
+  ## 💼 Key Achievements
+
+- Achieved ~91% accuracy on pneumonia detection
+- Built full-stack AI system (Frontend + Backend + ML)
+- Implemented explainable AI (Grad-CAM)
+- Deployed production-ready web app
+
+
+
+
+
 
 ---
 *Built as an industry-oriented portfolio project for HealthTech placements.*
