@@ -114,7 +114,7 @@ python src/predict.py --image sample.jpg
 - Requires real-world validation
 - Should be used only for educational purposes
 
-  ## 🚀 Future Improvements
+## 🚀 Future Improvements
 
 - Multi-disease classification (COVID, TB, Cancer)
 - Integration with DICOM medical imaging format
@@ -122,7 +122,7 @@ python src/predict.py --image sample.jpg
 - Real-time hospital dashboard
 - Integration with electronic health records (EHR)
 
-  ## 💼 Key Achievements
+## 💼 Key Achievements
 
 - Achieved ~91% accuracy on pneumonia detection
 - Built full-stack AI system (Frontend + Backend + ML)
