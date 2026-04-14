@@ -78,6 +78,26 @@ This simulates how AI copilots assist doctors in real hospitals.
 | AI Assistant | Gemini API |
 | Deployment   | Vercel |
 
+## 📸 Screenshots
+
+### 1. Landing Dashboard
+![Landing Dashboard](01_landing_dashboard.png)
+
+### 2. X-ray Upload
+![X-ray Upload](02_input_xray_upload.png)
+
+### 3. Prediction Result
+![Prediction Result](03_prediction_result_pneumonia.png)
+
+### 4. AI Diagnosis Insights
+![AI Insights](04_ai_diagnosis_insights.png)
+
+### 5. Implementation Blueprint
+![Blueprint](05_implementation_blueprint.png)
+
+### 6. Project Phases Plan
+![Phases Plan](06_project_phases_plan.png)
+
 ## 📂 3. Modular Code Structure (Industry Style)
 The core ML logic is split into modular components for maintainability:
 ```
