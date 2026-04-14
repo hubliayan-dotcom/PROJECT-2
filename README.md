@@ -129,6 +129,15 @@ python src/predict.py --image sample.jpg
 - Implemented explainable AI (Grad-CAM)
 - Deployed production-ready web app
 
+## 💼 For Recruiters
+
+This project demonstrates:
+
+- End-to-end ML pipeline development
+- Real-world problem solving using AI
+- Full-stack engineering (React + Node.js)
+- Data-driven decision systems
+- Industry-style architecture design
 
 
 
